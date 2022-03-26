@@ -10,24 +10,41 @@
 			-Informations pas sures
 			-Diffusion de fausses informations
 			-Manque d’accès à des sources fiables
-			-Manque d’accessibilité entrainant une asymétrie d’informations et un accès inégal pour différents groupes de personnes.
+			-Manque d’accessibilité entrainant une asymétrie d’informations et un accès inégal pour différents groupes de personnes:
+				.Selon la tranche d'age
+				.Secteur formel vs informel
+				.Population rurale vs urbaine
 	Solutions :
 		-Fonctionnalités par techno :
 			-Web :
+				-Chat bot permettant à l'utilisateur de connaitre plus d'informations à propos des vaccins, et possibilité de faire un rendez-vous avec un personnel compétant.
+				-Page contenant des vidéos sous-titrées en différentes langues.
+				-Forum permettant aux utilisateurs de poser des questions publiquements à propos des vaccins (Memes fonctionnalités que stackoverflow)
 				-Efficacité :
 					-Page permettant de voir la liste des vaccins avec statistique selon leur efficacité.
 					-Accessible à : Tout le monde possédant un ordinateur portable ou bureau doté d'une connection internet.
 					-Buts:
-						. Mise en valeur de l'efficacité des vaccins disponibles
+						. Mise en valeur de l'efficacité des vaccins disponibles.
 				-Sécurité :
-					Partie utilisateur :
-						-Informations publiés en blockchain
+					-Partie utilisateur :
+						-Informations publiées en blockchain.
 						-Profiles des responsables approuvant la véracité des informations sur les vaccins disponibles.
 						-Page regroupant toutes les informations approuvées concernant les vaccins disponibles dans la blockchain.
 						-Buts:
 							. Véracité et crédibilité des informations publiés sur la plateforme assurées.
-					Partie responsables :
-						-Publication des informations.
+					-Partie responsables :
+						-Demande d'approbation des informations.
 						-Approbation des informations par les responsables avant de les diffuser.
-						-
-			-Application desktop :
+						-Buts :
+							. Assurer la diffusion d'informations sûres et approuvées par la majorité des responsables.
+			-Application mobile:
+				-Notification (Nouveautés, messagerie, réponse aux questions posées dans les forums)
+				-Chat bot permettant à l'utilisateur de connaitre plus d'informations à propos des vaccins, et possibilité de faire un rendez-vous avec un personnel compétant.
+				-Page contenant des vidéos sous-titrées en différentes langues.
+				-Forum permettant aux utilisateurs de poser des questions publiquements à propos des vaccins (Memes fonctionnalités que stackoverflow)
+				-But: 
+					. Application accessible facilement pour les personnes ayant un téléphone portable et une connection internet.
+			-USSD:
+				-Demande d'informations à propos des vaccins via chat bot (Sous forme de plusieurs formulaires successives).
+				-Demande de rendez-vous avec des professionnelles dans le domaine.
+				-Demande de question sur un cas personnel.
