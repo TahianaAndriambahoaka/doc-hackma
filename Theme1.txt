@@ -1,6 +1,6 @@
 				Theme 1 :  Information sûre et accessible
 	Objectifs :
-		-Aider les personnes à bénéficier d’informations sures et accessible sur les vaccins.
+		-Aider les personnes à bénéficier d’informations sures et accessibles sur les vaccins.
 		-Mieux informer les bénéfices de la vaccination contre les risques et inciter la population à se faire vacciner.
 	Problèmes :
 		-Inquiétudes concernant :
@@ -18,25 +18,28 @@
 		-Fonctionnalités par techno :
 			-Web :
 				-Chat bot permettant à l'utilisateur de connaitre plus d'informations à propos des vaccins, et possibilité de faire un rendez-vous avec un personnel compétant.
-				-Page contenant des vidéos sous-titrées en différentes langues.
+				-Page contenant des vidéos sous-titrées en différentes langues, à propos des vaccins.
 				-Forum permettant aux utilisateurs de poser des questions publiquements à propos des vaccins (Memes fonctionnalités que stackoverflow)
-				-Efficacité :
+				- En matière d'efficacité :
 					-Page permettant de voir la liste des vaccins avec statistique selon leur efficacité.
 					-Accessible à : Tout le monde possédant un ordinateur portable ou bureau doté d'une connection internet.
 					-Buts:
 						. Mise en valeur de l'efficacité des vaccins disponibles.
-				-Sécurité :
-					-Partie utilisateur :
+				- En matière de Sécurité :
+					-Partie des utilisateurs :
 						-Informations publiées en blockchain.
 						-Profiles des responsables approuvant la véracité des informations sur les vaccins disponibles.
 						-Page regroupant toutes les informations approuvées concernant les vaccins disponibles dans la blockchain.
 						-Buts:
 							. Véracité et crédibilité des informations publiés sur la plateforme assurées.
-					-Partie responsables :
+					-Partie des responsables :
 						-Demande d'approbation des informations.
-						-Approbation des informations par les responsables avant de les diffuser.
+						-Approbation des informations par la majorité des responsables avant leur diffusion.
 						-Buts :
 							. Assurer la diffusion d'informations sûres et approuvées par la majorité des responsables.
+			-Application desktop : (Accessible au personnel responsable)
+				- Permet de gérer les contenus à propos des informations sur les vaccins. (Nouveaux contenus uniquement car on ne peut ni modifier , ni supprimer les informations dans les blockchains), l'affichage des données est tout à fait règlable aux cotés techniques.
+				- 
 			-Application mobile:
 				-Notification (Nouveautés, messagerie, réponse aux questions posées dans les forums)
 				-Chat bot permettant à l'utilisateur de connaitre plus d'informations à propos des vaccins, et possibilité de faire un rendez-vous avec un personnel compétant.
@@ -47,4 +50,15 @@
 			-USSD:
 				-Demande d'informations à propos des vaccins via chat bot (Sous forme de plusieurs formulaires successives).
 				-Demande de rendez-vous avec des professionnelles dans le domaine.
-				-Demande de question sur un cas personnel.
+				-Possibilité de poser des questions sur un cas personnel.
+				-But :
+					. Rendre les informations accessibles aux personnes dotés d'un téléphone portable ayant une puce.
+					. Informations sures.
+			-SMS
+				-Demande d'informations à propos des vaccins.
+				-Demande de rendez-vous.
+				-But:
+					. Rendre les informations accessibles aux personnes dotés d'un téléphone portable ayant une puce.
+					. Informations sûres.
+			-Mise en place de lieux stratégiques dans les zones rurales:
+				-Doté de l'application desktop et de connection internet, le personnel aura accès aux informations à propos des vaccins, pourront ensuite les imprimer et les partager à la population sous forme d'affiches, de journaux. Les habitants pourront également s'approcher de ses lieux stratégiques afin de poser des questions et en savoir plus sur les vaccins s'ils n'ont pas en disposition un téléphone portable.
