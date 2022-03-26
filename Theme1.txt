@@ -5,7 +5,7 @@
 	Problèmes :
 		-Inquiétudes concernant :
 			-L’efficacité des vaccins
-			-Sécurité
+			-La sécurité
 			-Effets secondaires
 			-Informations pas sures
 			-Diffusion de fausses informations
@@ -15,8 +15,19 @@
 		-Fonctionnalités par techno :
 			-Web :
 				-Efficacité :
-					-Page permettant de voir la liste des vaccins avec les statistiques mondiales de l’évolution d’efficacité de chacun d’entre eux
+					-Page permettant de voir la liste des vaccins avec les statistiques mondiales de l’évolution de l'efficacité de chacun d’entre eux.
+					-Accessible à : Tout le monde possédant un ordinateur portable ou bureau doté d'une connection internet.
+					-Buts:
+						. Mise en valeur de l'efficacité des vaccins disponibles
 				-Sécurité :
-					-Profiles des responsables approuvant la véracité des informations sur les vaccins disponibles.
-					-Approbation des informations par les responsables avant de les diffuser sur la blockchain.
+					Partie utilisateur :
+						-Informations publiés en blockchain
+						-Profiles des responsables approuvant la véracité des informations sur les vaccins disponibles.
+						-Buts:
+							. Véracité et crédibilité des informations publiés sur la plateforme assurées.
+					Partie responsables :
+						-Publication des informations
+						-Approbation des informations publiés 
+				-Approbation des informations par les responsables avant de les diffuser.
+				-Page regroupant toutes les informations approuvées concernant les vaccins disponibles dans la blockchain.
 			-Application desktop :
