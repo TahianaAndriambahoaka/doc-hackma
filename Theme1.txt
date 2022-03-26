@@ -1,0 +1,22 @@
+				Theme 1 :  Information sûre et accessible
+	Objectifs :
+		-Aider les personnes à bénéficier d’informations sures et accessible sur les vaccins.
+		-Mieux informer les bénéfices de la vaccination contre les risques et inciter la population à se faire vacciner.
+	Problèmes :
+		-Inquiétudes concernant :
+			-L’efficacité des vaccins
+			-Sécurité
+			-Effets secondaires
+			-Informations pas sures
+			-Diffusion de fausses informations
+			-Manque d’accès à des sources fiables
+			-Manque d’accessibilité entrainant une asymétrie d’informations et un accès inégal pour différents groupes de personnes.
+	Solutions :
+		-Fonctionnalités par techno :
+			-Web :
+				-Efficacité :
+					-Page permettant de voir la liste des vaccins avec les statistiques mondiales de l’évolution d’efficacité de chacun d’entre eux
+				-Sécurité :
+					-Profiles des responsables approuvant la véracité des informations sur les vaccins disponibles.
+					-Approbation des informations par les responsables avant de les diffuser sur la blockchain.
+			-Application desktop :
