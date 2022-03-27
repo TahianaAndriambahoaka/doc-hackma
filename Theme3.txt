@@ -1,0 +1,149 @@
+Theme 3  : To Do List : Transpance au niveau des gestions des ressource 
+Probleme : 
+	- Manque de confiance
+	- Presence de detournement de fonds 
+        - la circulation des ressource  n'est pas controlle et suivie 
+        - les aides n'est pas arrive au cible
+	- Manque de visibilité
+        - Non transparente
+        - Détournement de fond (Argent et matériaux)
+        - Manque de confiance envers l’état
+
+Fonctionnalités par techno :
+	- WEB :- Fonctionnalite multi-lingue 	/ Securisation des donnee via certificat SSL 
+		- utilisateur : fonctionnalite multi-utlisateur 
+			- Responsable logistique et d'approvisionnement   du ministere
+                        - Responsable de ressource humaine 
+
+			
+		- System de Login : Verification d'access au utilisateur securisé avec Autorisation et authentification des compte utilisateur avec le systeme  JSON Web Token et Oauth  
+			But : Pour mieux gerer les utilisateurs et leur role 
+
+		- Gestion des Ressource Humaine : Projet BigOrgChart 
+			  - Organigramme qui peut se mettre a jour automatiquemenet contenant tout les listes des Employers , Responsable , interne , benevolat ,Administrateur ...(Dans le domaine de la sante ) 
+				Lorsqu'on survole ou clique , on voie le detail avec leur responsabilite 
+
+				But : - en cas de detournement de fonds on peut voir plus rapidement les cas suspects 
+                                      - savoir sur qui on purrait demander  pour confirmé l'arrive de chose envoyé 
+
+                          - Tableau Liste avec ajout , modifier , supprimer , Attribution de responsabilite et poste , affichant leur coordonee 
+
+				But : Pour faciliter et repertorier la gestion de tous le responsable , interne , employer , benevolat ,Administrateur ...(Dans le domaine de la sante ) 
+
+		- Gestion de Stock (Medical utile a la vaccination) de vaccin et des materiel medical ou les  accessoires ( ex : Cache bouche , seringue ) 
+			- Gestion de stock 
+				- Ajout/suppression/Liste de type ou categorie 
+				- Liste par categorie de vaccins  avec detail de : 
+				- tracabilite avec MAPS (CARTE)  ( Localisation de tout les produits) 
+
+                        - Etat de stock et inventaire de stock en temp reel et statistique d'evaluation de stock  
+                        - Evaluation de stock automatisé selon leur methode ( FIFO , LIFO ...) 
+			- Comptabilisation automatique de stock 
+			- Enregistrement des mouvements de stock 
+                                But : Pour connaitre a  tout moment de facon constante les stock en quantite et en valeur avec date 
+			- Ajout/suppression/modification (en cas d'erreur de saisie par exemple)   de critere de recherche de stock collecté dans le ministere selon la date de perumption(Stocm perissable , non perissable , stock avec date de perumption ) 
+				But : Pour faciliter la rcherche des stock primé 
+			- Ajout/suppression/modification (en cas d'erreur de saisie par exemple) de critere de recherche de stock collecté dans le ministere  selon l’organisation opérationnelle(ex: Stock optimal , Stock physique , Stock net , Stock disponible , Stock minimum , Stock maximum , Stock spéculatif) 
+				But : Pour faciliter la rcherche des stock par quantite 
+			- Ajout/suppression/modification (en cas d'erreur de saisie par exemple)   de critere de recherche de stock collecté dans le ministere  selon leur fonction ( ex : Stock de sécurité , Stock d’alerte, Stock saisonnier , Stock dormant ...)
+				But : Pour faciliter la rcherche des stock par degre d'importance 
+
+			- En cas de stock epuise : Gestion de commande et vente 
+		                - Simplification de processus de commande au fournisseur locale ou etranger ( 
+			        - demande de facture proformat automatique , 
+                                - reception de proformat automatique 
+                                - envoye de bon de commande 
+                                - reception de bon de livraison automatique 
+                                - Payement taxe douaniere 
+                                - envoye bon de reception  
+                                - reception facture electronique 
+				 But : Faciliser le commande avec  une delai le plus vite possible  pour eviter les fuites , les longue procedure , le detournement 
+
+		- Gestion des immobilisations
+				- Gestion des immobilisations corporelles (ex : terrains , nouveau infrastructure ,materiel de bureau , materiel de transport ) et incorporel  (ex : sites internet  , logiciel )  :
+					- Page d'Ajout de nouveau Type ou categories d'immobilisations (nom , prix actuel en cas d'Achat ) 
+					But : Pour mieu repertorie chaque immobilisation en cas d'Achat 
+					- gestion des Achats ou payement ( Construction d'infrastructure ) 
+					But :  
+					- Historique d'Achat et de payement 
+					But : Pour bien calculer les depenses 
+					- Gestion des entree des actifs et parametrage de leurs differentes caracteristiques ( evaluation , duree d'ammortissement , type d'amortissement , valeur nette comptable )
+					But : Pour mieux predire au futur la date de prochaine achat 
+					- Fiche detaille avec etat et lieu d'utilisation des biens 
+					But : pour savoir l'etat des immobilisation ( Usure , destruction ..., perte)
+					
+				
+				
+
+		- Gestion des logistique (Materiel et Vaccin) 
+			- payement du frais de transport / colisage , embalage  et stockage / prix minimum 
+				But : Afin de suivre en temp reel les depenses causE par le activite logistique (transport et stockage ) 
+
+		- Gestion des fonds (Comptabilite )  et de tresorerie 
+			- Page de Suivie en temp reel des encaiseement et de decaissement 
+				But : Pour permettre de visualiser les flux de tresorerie reel 
+			- Page de Rapprochement bancaire automatisé
+				But : Pour permettre d'extraire différentes données concernant les flux passés et futurs afin de faciliter la communication avec la banque
+			- Systeme d'alerte personnalisable 
+				But : Pour permettre de mettre à jour les flux de trésorerie réels de manière automatique et donc de gagner un temps considérable
+			- Page de Prévisions de trésorerie à court, moyen et long terme
+				But : Pour permettre de choisir la temporalité des prévisions de trésorerie
+			usage multi-devise , 
+
+	- Securite des informations interdi au modification : Syteme de securisation de donnee avec le systeme de block chain 
+		mode de stockage et de transmission de données sous forme de blocs liés les uns aux autres et protégés contre toute modification ou suppression 
+
+	
+
+	- Installlation de Web Service Api pour Banque 
+		But : pour faciliter la transaction et suivre le virement et depot 
+
+
+	- Payement transactionnel via USSD avec les operateur telephonique ( ex : pour frais de transport  ) connecté avec le web api de la banque 
+		But : - Minimiser l'utilisation d'argent en liquide 
+
+	- SMS 
+		- Systeme d'envoye de signalement en cas de cas suspect 
+		 
+				But :  pour rapporter des signalement au centre en cas de situation de vol et de detournement  sChaque information seront collecté et analysé
+
+	-  Application mobile ou pour tablette : - Fonctionnalite multi-lingue 	
+			- utilisateur :  Responsable par region /District / Centre  
+
+			- mini-Gestion de Stock de vaccin par District / Region / centre , des immobilisations par District / Region / centre  , Logistique  par District / Region / centre 
+				But : 
+
+			- Envoye de demande ou commande au ministere 
+
+			- Systeme d'envoye de signalement en cas de cas suspect 
+		 
+				But :  pour rapporter des signalement au centre en cas de situation de vol et de detournement  sChaque information seront collecté et analysé
+
+	- Application desktop : - Fonctionnalite multi-lingue 	
+
+			- utilisateur :  Responsable par region /District / Centre  
+
+			- mini-Gestion de Stock de vaccin par District / Region / centre , des immobilisations par District / Region / centre  , Logistique  par District / Region / centre 
+				But : 
+
+			- Envoye de demande 
+
+			- Systeme d'envoye de signalement en cas de cas suspect 
+		 
+				But :  pour rapporter des signalement au centre en cas de situation de vol et de detournement  sChaque information seront collecté et analysé
+
+			- Envoye de demande 
+
+
+	- Appareil de scan de stock ENTREE (avec lecteur de code bar ou Qr code) connecté au serveur muni de capteur ( IOT) 
+
+				But : Pour marque tout les produit recue 
+
+
+ 	
+		
+		 
+
+
+
+		 
